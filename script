@@ -30,12 +30,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
+				{word: 'Angry'},
+				{word: 'Bothersome'},
+				{word: 'Grief'},
+				{word: 'Hate'},
+				{word: 'Poison'},
+				{word: 'Sadness'},
+				{word: 'Sickening'},
 				{word: 'Ugly'},
-				{word: 'Disaster'},
-				{word: 'Evil'},
-				{word: 'Brutal'},
-				{word: 'Destroy'},
-				{word: 'Hate'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -49,12 +51,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-			    {word : 'Success'}, 
-					{word : 'Cheerful'}, 
-					{word : 'Enjoy'}, 
-					{word : 'Wonderful'},
-					{word : 'Smile'},
-					{word : 'Beautiful'},
+			    {word : 'Appealing'}, 
+					{word : 'Celebrate'}, 
+					{word : 'Cherish'}, 
+					{word : 'Excellent'},
+					{word : 'Friendship'},
+					{word : 'Glad'},
+					{word : 'Happy'},
+					{word : 'Joyous'},
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
